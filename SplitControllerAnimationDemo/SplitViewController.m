@@ -123,6 +123,7 @@
     self.backViewController.view.transform = CGAffineTransformIdentity;
     self.frontViewController.view.frame= newFrontFrame;
     self.backViewController.view.frame = [self getBackViewRectOpen];
+    
     self.menuStateInView = MenuOpened;
 }
 
